@@ -1,0 +1,131 @@
+.location {
+  padding: 70px 0;
+  width: 100%;
+  background-color: rgba(21, 20, 50, 0.9);
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 834px) {
+      flex-wrap: wrap;
+      margin: 0 -15px;
+      justify-content: space-around;
+    }
+  }
+}
+.location__inform__title {
+  margin-bottom: 29px;
+  @include location__inform__title();
+  @media (max-width: 1205px) {
+    font-size: $_14px;
+    line-height: 16px;
+    margin-bottom: 17px;
+  }
+}
+.location__inform__link {
+  @include location__text();
+  @media (max-width: 1205px) {
+    font-size: $_14px;
+    line-height: 16px;
+    @media (max-width: 340px) {
+    }
+  }
+}
+
+.about__wrap {
+  width: 360px;
+  margin: 0 15px;
+  @media (max-width: 1205px) {
+    width: 330px;
+    margin: 0 15px 40px;
+  }
+  &:last-child {
+    margin: 0 15px;
+  }
+  @media (max-width: 834px) {
+    width: 400px;
+    margin: 0 15px 67px;
+  }
+  @media (max-width: 434px) {
+    width: 279px;
+  }
+  @media (max-width: 310px) {
+    width: 255px;
+  }
+}
+
+.share__title {
+  margin-bottom: 59px;
+  @include location__inform__title();
+  @media (max-width: 1205px) {
+    font-size: $_14px;
+    line-height: 16px;
+    margin-bottom: 41px;
+  }
+  @media (max-width: 834px) {
+    margin-bottom: 17px;
+  }
+}
+.share__nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  &__item {
+    border: 1px solid #c6cbcd;
+    padding: 11px;
+    margin-right: 27px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:last-child {
+      margin-right: 0;
+    }
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__item__f {
+    border: 1px solid #c6cbcd;
+    padding: 11px 15px;
+    margin-right: 27px;
+    transition: 0.3s;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+.share__nav__facebook {
+  @include share__tw__fb__lkdn();
+}
+.share__nav__twitter {
+  @include share__tw__fb__lkdn();
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.share__nav__linkedin {
+  @include share__tw__fb__lkdn();
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.about__title {
+  margin-bottom: 29px;
+  @include location__inform__title();
+  @media (max-width: 1205px) {
+    font-size: $_14px;
+    line-height: 16px;
+    margin-bottom: 17px;
+  }
+}
+.about__text {
+  @include location__text;
+  text-align: center;
+  @media (max-width: 1205px) {
+    font-size: $_14px;
+    line-height: $_16px;
+  }
+  @media (max-width: 340px) {
+  }
+}

@@ -1,0 +1,96 @@
+@mixin icon__card__title {
+  width: 100%;
+  font-family: "Raleway";
+  font-weight: 900;
+  font-size: $_24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #2d3033;
+  margin-bottom: 21px;
+}
+@mixin icon__card__text {
+  width: 100%;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: $_18px;
+  line-height: 21px;
+  text-align: center;
+  color: #6c7279;
+}
+@mixin team__card__img {
+  width: 230px;
+  height: 230px;
+  margin-bottom: 30px;
+}
+@mixin team__card__title {
+  width: 100%;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: $_24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #2d3033;
+  margin-bottom: 5px;
+}
+@mixin team__card__subtitle {
+  width: 100%;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: $_16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ff4343;
+  margin-bottom: 18px;
+}
+@mixin team__card__text {
+  width: 100%;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: $_18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #6c7279;
+  margin-bottom: 38px;
+}
+@mixin team__facebook__twitter__link {
+  font-size: $_36px;
+  color: #c6cbcd;
+  cursor: pointer;
+  transition: 0.3s;
+}
+@mixin location__inform__title {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: $_18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+}
+@mixin location__text {
+  width: 100%;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: $_18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  display: block;
+  color: #ffffff;
+}
+@mixin share__tw__fb__lkdn {
+  color: #c6cbcd;
+  font-size: $_24px;
+}

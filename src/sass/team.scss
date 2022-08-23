@@ -1,0 +1,123 @@
+.team {
+  padding: 114px 0;
+  width: 100%;
+}
+.wrap__team {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -15px;
+  @media (max-width: 1205px) {
+    justify-content: space-evenly;
+    @media (max-width: 1110px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
+.team__card {
+  width: 230px;
+  margin: 0 15px;
+  &__img {
+    @include team__card__img();
+    @media (max-width: 1205px) {
+      width: 227px;
+      height: 227px;
+      @media (max-width: 1110px) {
+        width: 300px;
+        height: 300px;
+      }
+      @media (max-width: 675px) {
+        width: 227px;
+        height: 227px;
+      }
+    }
+  }
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  &__title {
+    @include team__card__title();
+    @media (max-width: 1205px) {
+    }
+    @media (max-width: 1110px) {
+      font-size: $_24px;
+    }
+    @media (max-width: 424px) {
+      font-size: $_18px;
+      line-height: 21px;
+    }
+  }
+  &__subtitle {
+    @include team__card__subtitle();
+    @media (max-width: 1205px) {
+    }
+    @media (max-width: 424px) {
+      margin-bottom: 33px;
+      font-size: $_14px;
+      line-height: 16px;
+    }
+  }
+  &__text {
+    @include team__card__text();
+    @media (max-width: 1205px) {
+      font-size: $_16px;
+      line-height: 19px;
+    }
+    @media (max-width: 424px) {
+      font-size: $_14px;
+    }
+  }
+  &__nav {
+    display: flex;
+    &__item {
+      margin-right: 8px;
+      &:last-child {
+        margin-right: 0;
+      }
+      &__item {
+      }
+    }
+  }
+  &__facebook {
+    @include team__facebook__twitter__link();
+    &:hover {
+      transform: scale(1.2);
+      color: rgb(32, 37, 134);
+    }
+  }
+  &__twitter {
+    @include team__facebook__twitter__link();
+    &:hover {
+      transform: scale(1.2);
+      color: rgb(72, 146, 207);
+    }
+  }
+  &__linkedin {
+    @include team__facebook__twitter__link();
+    &:hover {
+      transform: scale(1.2);
+      color: rgb(63, 101, 205);
+    }
+  }
+  @media (max-width: 1205px) {
+    width: 227px;
+  }
+  @media (max-width: 1110px) {
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+  }
+  @media (max-width: 520px) {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  @media (max-width: 1110px) {
+    width: 300px;
+  }
+  @media (max-width: 675px) {
+    width: 227px;
+  }
+}

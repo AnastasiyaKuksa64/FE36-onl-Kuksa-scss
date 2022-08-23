@@ -1,0 +1,25 @@
+{
+  "name": "fe36-onl-kuksa-reposi",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnastasiyaKuksa64/FE36-onl-Kuksa-reposi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnastasiyaKuksa64/FE36-onl-Kuksa-reposi/issues"
+  },
+  "homepage": "https://github.com/AnastasiyaKuksa64/FE36-onl-Kuksa-reposi#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0",
+    "sass": "^1.54.5"
+  }
+}

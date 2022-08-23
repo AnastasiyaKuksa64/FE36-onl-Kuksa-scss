@@ -1,0 +1,33 @@
+.footer {
+  padding: 24px 0;
+  width: 100%;
+  background-color: rgba(13, 12, 37, 0.9);
+  &__text {
+    width: 370px;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: $_18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    text-transform: capitalize;
+    color: #808080;
+    & p span {
+      color: azure;
+      @media (max-width: 520px) {
+        font-size: $_14px;
+        line-height: 16px;
+      }
+    }
+    @media (max-width: 520px) {
+      font-size: $_14px;
+      line-height: 16px;
+      width: 280px;
+    }
+    @media (max-width: 310px) {
+      width: 260px;
+    }
+  }
+}

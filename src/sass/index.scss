@@ -1,0 +1,46 @@
+@import "../sass/font.scss";
+@import "../sass/var.scss";
+@import "../sass/mix.scss";
+@import "../sass/cdnjs.scss";
+@import "../sass/header.scss";
+@import "../sass/icon.scss";
+@import "../sass/work.scss";
+@import "../sass/team.scss";
+@import "../sass/testimonials.scss";
+@import "../sass/download.scss";
+@import "../sass/location.scss";
+@import "../sass/footer.scss";
+
+* {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  max-width: 1170px;
+  padding: 0 15px;
+  position: relative;
+  z-index: 5;
+  @media (max-width: 1205px) {
+    max-width: 990px;
+  }
+  @media (max-width: 1110px) {
+    max-width: 984px;
+  }
+  @media (max-width: 984px) {
+    max-width: 940px;
+  }
+  @media (max-width: 520px) {
+    max-width: 480px;
+  }
+  @media (max-width: 340px) {
+    max-width: 300px;
+  }
+  @media (max-width: 300px) {
+    width: 278px;
+  }
+}
