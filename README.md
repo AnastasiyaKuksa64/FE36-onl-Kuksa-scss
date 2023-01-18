@@ -1,1 +1,1 @@
-# FE36-onl-Kuksa-js-scss
+# FE36-onl-Kuksa-scss
