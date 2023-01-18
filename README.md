@@ -1,1 +1,1 @@
-# FE36-onl-Kuksa-reposi
+# FE36-onl-Kuksa-js-scss
